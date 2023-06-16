@@ -8,5 +8,7 @@ var Fletter = name.slice(0,1);
 var FirstChar = Fletter.toUpperCase();
 // Getting the rest of the letters for name
 var Rname = name.slice(1,name.length);
+// Avoiding uppercases within name. Eg: JenNifEr
+var Smlets = Rname.toLowerCase();
 //Displaying results
-console.log(FirstChar + Rname);
+console.log(FirstChar + Smlets);
