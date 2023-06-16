@@ -3,12 +3,12 @@
 // Creating a prompt that asks for users name
 var name = prompt("What is your name?");
 // Taking the first letter of username
-var Fletter = name.slice(0,1);
+var fLetter = name.slice(0,1);
 // Setting first letter to Uppercase
-var FirstChar = Fletter.toUpperCase();
+var firstChar = fLetter.toUpperCase();
 // Getting the rest of the letters for name
-var Restname = name.slice(1,name.length);
+var restName = name.slice(1,name.length);
 // Avoiding uppercases within name. Eg: JenNifEr
-var Lowerlets = Rname.toLowerCase();
+var lowerLets = restName.toLowerCase();
 //Displaying results
-console.log(FirstChar + Lowlets);
+console.log(firstChar + lowerLets);
